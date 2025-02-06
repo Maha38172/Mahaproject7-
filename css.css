@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+    background: #ddd;
+   
+}
+
+.main{
+   display :flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px;
+    width: 400px; 
+    height: 70px;
+    border-radius: 15px;
+    background :#eee;
+    margin:100px auto 0 auto;
+    gap:20px;
+}
+.btn{
+ background-image:linear-gradient(to top left,#6CB4EE,#F0F8FF);
+   width: 100px;
+   height: 30px;
+   border-radius: 15px;
+   border:none;
+}
+.input{
+    border:none;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    outline :none;
+    padding:20px;
+}
+
+.main1{
+    background:#eee ;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    margin:30px auto;
+    overflow :auto;
+}
+
